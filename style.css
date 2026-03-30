@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Handjet:wght,ELSH@100..900,2&family=Playpen+Sans:wght@100..800&display=swap');
+body{
+  font-family: Handjet;
+  margin: 0px;
+}
+.shapka{
+  background-color: #AF0000;
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+.nazvanie {
+  font-size: 80px;
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+}
+.insrumentos{
+  height: 240px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.knopka1{
+  width: 80px;
+  height: 90px;
+  background-color: #AF0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.knopka2{  
+  width: 80px;
+  height: 80px;
+  background-color: #AF0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.workplace{  
+  width: 600px;
+  height: 600px;  
+  background-color: #AF0000;
+  display: grid;
+  grid-template-columns: repeat(16,37.5px);
+  grid-template-rows: repeat(16,37.5px);
+}
+.count{
+  width: 300px;
+  height: 300px;  
+  background-color: #AF0000;
+  margin-right: 100px;
+}
+.n{
+  font-size: 200px;
+  margin-top: 43px;
+  margin-left: 110px;
+}
+
+.square{
+  border: 1px solid blue;
+  font-size: 40px;
+  text-align: center;
+  padding-top: -10px;
+}
+
+.open{
+  background-color: green;
+}
+
+.umenshalka{
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.buton{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 204px;
+  height: 57px;
+  font-family: Handjet;
+  font-size: 30px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+  margin: 25px 0px 0px 42.7vw;
+}
+.btn-12 span {
+  background: #db0000;
+  background: linear-gradient(0deg, #db0000 0%, #AF0000 100%);
+  display: block;
+  position: absolute;
+  width: 204px;
+  height: 57px;
+  font-family: Handjet;
+  font-size: 30px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
